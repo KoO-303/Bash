@@ -12,7 +12,7 @@ HISTCONTROL=$HISTCONTROL${HISTCONTROL+:}ignoredups
 HISTCONTROL=ignoreboth
 # to cd without using cd 
 ##shopt -s autocdcd i3
-bind "set completion-ignore-case on"
+bind "set completion-ignore-case on"  # <<<No upper case needeed>>>
 
 # append to the history file, don't overwrite it
 shopt -s histappend
@@ -114,7 +114,7 @@ if [ -x /usr/bin/dircolors ]; then
     alias  ....='../../..'
     alias  .....='../../../..'
     
-    #alias grep='grep --color=auto'
+   alias grep='grep --color=auto'
     #alias fgrep='fgrep --color=auto'
     #alias egrep='egrep --color=auto'
     
